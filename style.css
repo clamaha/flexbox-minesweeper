@@ -1,0 +1,96 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c2c6c9;
+    background-image: url(back.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+.grid{
+    margin: 8% ;
+    border: 10px inset lightgrey;
+    height: 445px;
+    width: 500px;
+    flex-direction: column;
+
+}
+.row{
+    display: flex;
+    background-color: lightgrey;
+    border-top: none;
+    height: 12.5%;
+    width: 100%;
+}
+.row img{
+    width: 12%;
+    border: 2px dotted black;
+}
+
+.cell {
+    display: flex;
+    width: 12%;
+    line-height: 2;
+    border: 2px dotted black;
+
+}
+.cell1{
+    color: blue;
+    border: 2px dotted black;
+    font-size: 28px;
+    text-align: center;
+    width: 12%;
+}
+.cell2{
+    color: green;
+    border: 2px dotted black;
+    font-size: 28px;
+    text-align: center;
+    width: 12%;
+    
+}
+.cell3 {
+    color: red;
+    border: 2px dotted black;
+    font-size: 28px;
+    text-align: center;
+    width: 12%;
+    
+}
+button{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    border: inset 5px black;
+    background-color: lightgrey;
+    align-items: center;
+}
+
+button:hover{
+    background-color: transparent;
+    border: transparent;   
+}
+span{
+    position: absolute;
+
+}.hidden{
+    width: 12.5%;
+}
+.hidden2{
+    color: green;
+}
+.hidden3{
+    color: red;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:12.5%;
+    font-size: 28px;
+}
+
+
